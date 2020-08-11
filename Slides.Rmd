@@ -12,6 +12,13 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+class: center, middle
+
+## What is forestry?
+
+<img src="www/forestry_intro.png"  width="780px"/>
+
+---
 class: left, middle
 
 
