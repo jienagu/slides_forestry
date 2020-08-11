@@ -1,0 +1,13 @@
+---
+title: "Extend R's potential with nested data for creating htmlwidgets"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+When building htmlwidget for R community, the most difficult part is the convert an R data to a JSON data for Javascript can render it. Currently, we have a few R packages (`jsonlite` and `rjson`) to convert a tabular data to a JSNO data. Yet, there is a need to introduce more tools to reshape an R data to a nested JSON structure, which unlocks R's potential and extends R into a broader Javascript community.
+
+In this talk, I will introduce the `forestry` package which offers a series of utility functions to help with nested data through data tree. Since data.tree has the capability to convert a tree to JSON using toJSON() after converting to a list using as.list(), the forestry package is particularly useful when creating a specific JSON object for building htmlwidgets. The forestry package aims to reshape or create tree objects with a specific format.
+
