@@ -86,6 +86,19 @@ class: left, top
 
 #### Use case: Monthly and quarterly cum sum of exercise time
 
+##### A tabular R data:
+
+```{r  out.height='100%', eval = require( 'forestry', 'data.tree')}
+data("exercise_df")
+exercise_df
+```
+
+
+---
+class: left, top
+
+#### Use case: Monthly and quarterly cum sum of exercise time
+
 ```{r  out.height='100%', eval = require( 'forestry', 'data.tree')}
 exercise_node <- data.tree::as.Node(exercise_df)
 exercise_node$Do(function(node) node$exercise_time <- data.tree::Aggregate(node, attribute = "exercise_time", aggFun = sum), traversal = "post-order")

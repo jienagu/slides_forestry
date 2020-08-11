@@ -106,6 +106,36 @@ class: left, top
 
 #### Use case: Monthly and quarterly cum sum of exercise time
 
+##### A tabular R data:
+
+
+```r
+data("exercise_df")
+exercise_df
+```
+
+```
+##    quarterly monthly exercise_time  pathString
+## 1         Q1     Jan          0.83 Year/Q1/Jan
+## 2         Q1     Feb          0.31 Year/Q1/Feb
+## 3         Q1     Mar          0.84 Year/Q1/Mar
+## 4         Q2     Apr          0.19 Year/Q2/Apr
+## 5         Q2     May          0.01 Year/Q2/May
+## 6         Q2     Jun          0.27 Year/Q2/Jun
+## 7         Q3     Jul          0.11 Year/Q3/Jul
+## 8         Q3     Aug          0.98 Year/Q3/Aug
+## 9         Q3     Sep          0.76 Year/Q3/Sep
+## 10        Q4     Oct          0.19 Year/Q4/Oct
+## 11        Q4     Nov          0.76 Year/Q4/Nov
+## 12        Q4     Dec          0.29 Year/Q4/Dec
+```
+
+
+---
+class: left, top
+
+#### Use case: Monthly and quarterly cum sum of exercise time
+
 
 ```r
 exercise_node &lt;- data.tree::as.Node(exercise_df)
