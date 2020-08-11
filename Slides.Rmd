@@ -103,7 +103,19 @@ print(exercise_node_test,"exercise_time", "cumsum_number", "level")
 ```
 
 ---
-class:  left, top
+class:  center, top
 
-#### To be continued
+## Thank you and happy htmlwidgets package building
+
+<img src="www/htmlwidgets.png" alt="Example_start" height="100">
+
+<img src="www/flashCard.gif" alt="Example_start" width="350">
+<img src="www/faq_gif.gif" alt="Example_start" width="350">
+
+
+.footnote[
+[1] flashCard: https://github.com/jienagu/flashCard
+[2] faq: https://github.com/jienagu/faq
+]
+
 
